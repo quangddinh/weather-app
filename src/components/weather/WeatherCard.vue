@@ -38,7 +38,7 @@ defineProps({
       <div class="flex flex-col justify-between p-4 leading-normal">
         <h5
           v-if="locationData && !!Object.keys(locationData).length"
-          class="mb-2 text-2xl sm:text-4xl font-bold tracking-tight text-gray-900 dark:text-white"
+          class="mb-2 text-2xl sm:text-4xl font-bold tracking-tight text-gray-900"
         >
           {{ locationData.name }}
         </h5>
